@@ -1,5 +1,5 @@
 site_name: StepTru
-site_description: A Simpler yet elegant forms steps wizard for NextJS page router.
+site_description: A simpler yet highly configurable forms steps wizard for NextJS page router.
 site_url: https://www.nextjs-steptru.org/
 
 theme:
