@@ -1,0 +1,51 @@
+site_name: StepTru
+site_description: A Simpler yet elegant forms steps wizard for NextJS page router.
+site_url: https://www.nextjs-steptru.org/
+
+theme:
+    name: 'material'
+    custom_dir: 'docs/overrides'
+    palette:
+      - scheme: 'default'
+        media: '(prefers-color-scheme: light)'
+        toggle:
+          icon: 'material/lightbulb'
+          name: "Switch to dark mode"
+      - scheme: 'slate'
+        media: '(prefers-color-scheme: dark)'
+        primary: 'blue'
+        toggle:
+          icon: 'material/lightbulb-outline'
+          name: 'Switch to light mode'
+
+repo_name: codesplinta/steptru
+repo_url: https://github.com/codesplinta/steptru/
+edit_uri: ""
+
+nav:
+    - Introduction: 'index.md'
+    - Getting Started:
+        - Installation: 'installation.md'
+        - QuickStart: 'quickstart.md'
+        - Basic Usage: 'usage.md'
+    - Changing Gears:
+        - Advanced Usage: 'advanced/usage.md'
+    - Guides:
+        - Configure StepTru: 'configure.md'
+        - Troubleshooting: 'troubleshooting.md'
+    - API Reference:
+        - Developer Interfaces: 'api.md'
+        - Exceptions: 'exceptions.md'
+        - Environment Variables: 'environment_variables.md'
+    - Community:
+        - Contributing: 'contributing.md'
+        - Code of Conduct: 'code_of_conduct.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      css_class: highlight
+  - mkautodoc
+
+extra_css:
+    - css/custom.css
