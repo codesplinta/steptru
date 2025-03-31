@@ -1,3 +1,31 @@
 {
-  
+  "name": "steptru",
+  "version": "0.0.1",
+  "description": "A simpler yet highly configurable forms steps wizard for NextJS v12.x+ page router apps.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.6.7"
+  },
+  "author": "Ifeora Okechukwu <isocroft@gmail.com> (https://isocroft.com/)",
+  "license": "BSD",
+  "dependencies": {},
+  "peerDependencies": {
+    "next": "13.x || 14.x || 15.x",
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesplinta/steptru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codesplinta/steptru/issues"
+  },
+  "homepage": "https://github.com/codesplinta/steptru#readme"
 }
