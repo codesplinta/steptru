@@ -1,6 +1,8 @@
 import React, { useRef, useState, useEffect, useCallback, Children, isValidElement, cloneElement } from "react";
 import Router from "next/router";
 
+import { useBrowserStorage, useFormWizardSteps } from "./hooks";
+
 const useIsFirstRender = () => {
   const isFirst = useRef(true);
 
@@ -356,4 +358,5 @@ const FormStepsWizard = ({
     );
 };
 
+export { useBrowserStorage, useFormWizardSteps };
 export default FormStepsWizard;
